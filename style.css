@@ -1,0 +1,212 @@
+:root
+{
+    --majorcolor: rgb(241, 241, 236);
+    --secondColor: rgba(171, 165, 135, 0.782);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: var(--majorcolor);
+}
+.head
+{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    
+}
+.Name{
+    color:var(--secondColor);
+    -webkit-animation: text-shadow-drop-right 0.6s both;
+	animation: text-shadow-drop-right 0.6s both;
+}
+.homePage{
+    
+    -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-ver-top {
+0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+}
+100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+}
+}
+@keyframes scale-in-ver-top {
+0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+}
+100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+}
+}
+.navBar{
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+.intro
+{
+    padding-top: 60px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+.intro img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    margin-right: 100px;
+}
+.intro img:hover{
+    height: 400px;
+    width: 400px;
+}
+@-webkit-keyframes text-shadow-drop-right {
+0%{
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+100%{
+    text-shadow: 6px 0 18px rgba(0, 0, 0, 0.35);
+}
+}
+@keyframes text-shadow-drop-right {
+0%{
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+100% {
+    text-shadow: 6px 0 18px rgba(0, 0, 0, 0.35);
+}
+}
+.Button{
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: var(--secondColor);
+}
+.EduContainer
+{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 30px;
+    margin-top: 110px;
+    margin-bottom: 130px;  
+    
+}
+.inter,
+.matric{
+    border: 7px solid rgba(171, 165, 135, 0.782);
+    border-radius: 50px ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.inter:hover,
+.matric:hover{
+    border: 20px solid rgba(171, 165, 135, 0.782);
+}
+.Servies
+{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 30px;
+    margin-top: 110px;
+    margin-bottom: 130px;  
+    
+}
+.service1,
+.service2{
+    border: 7px solid rgba(171, 165, 135, 0.782);
+    border-radius: 50px ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+.service1:hover,
+.service2:hover{
+    border: 20px solid rgba(171, 165, 135, 0.782);
+}
+.bars{
+    margin-left: 40px;
+    height: 60px;
+    width: 500px;
+    border-radius: 250px;
+    margin-bottom: 30px;
+    border-color: var(--secondColor);
+    
+}
+.messageArea{
+    padding-top: 10px;
+    margin-left: 40px;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border-color: var(--secondColor);
+}
+.submitButton{
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: var(--secondColor);
+    margin-left: 30px;
+}
+.submitButton:hover,
+.Button:hover{
+    background-color: rgba(86, 72, 72, 0.064);
+}
+.lastSection{
+    display: flex;
+    justify-content: space-between;
+}
+.lastSection1{
+    margin-right: 60px;
+}
+.lastSection2{
+    margin-left: 60px;
+}
+.social-media{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.Logo:hover{
+    font-size: 90px;
+}
